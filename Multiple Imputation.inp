@@ -1,0 +1,11 @@
+TITLE: path analysis predicting trust in govt (STEP 1 IMPUTATION)
+DATA: FILE IS ...................;
+VARIABLE:
+NAMES ARE .....;
+MISSING ARE ALL(.....);
+DATA IMPUTATION:
+IMPUTE= .....;
+NDATASETS= ..... ;
+SAVE = ......*.dat;
+ANALYSIS: TYPE=BASIC;
+OUTPUT: TECH8;
